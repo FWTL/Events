@@ -8,7 +8,7 @@ init:
     - cmd: git config --global core.autocrlf true
 
 artifacts:
-  - path: FWTL.Core.Common\nupkgs\*.nupkg
+  - path: FWTL.Events\nupkgs\*.nupkg
     name: nuget-events
 
 cache:
