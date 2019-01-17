@@ -7,8 +7,6 @@ namespace FWTL.Events.Telegram.Messages
     {
         public PeerType PeerType { get; set; }
 
-        public int TelegramUserId { get; set; }
-   
         public int SourceId { get; set; }
 
         public List<Message> Messages { get; set; } = new List<Message>();
