@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using static FWTL.Events.Telegram.Enums;
+﻿using static FWTL.Events.Telegram.Enums;
 
 namespace FWTL.Events.Telegram.Messages
 {
@@ -9,6 +8,6 @@ namespace FWTL.Events.Telegram.Messages
 
         public int SourceId { get; set; }
 
-        public List<Message> Messages { get; set; } = new List<Message>();
+        public Message Message { get; set; }
     }
 }
