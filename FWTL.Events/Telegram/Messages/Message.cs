@@ -25,5 +25,8 @@ namespace FWTL.Events.Telegram.Messages
         public string Text { get; set; }
 
         public string UniqueId { get; set; }
+
+        public PeerType PeerType { get; set; }
+        public int TelegramUserId { get; set; }
     }
 }
