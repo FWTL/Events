@@ -20,12 +20,6 @@ namespace FWTL.Events.Telegram.Messages
 
         public MessageMedia Media { get; set; }
 
-        public int SourceId { get; set; }
-
         public string Text { get; set; }
-
-        public PeerType PeerType { get; set; }
-
-        public int TelegramUserId { get; set; }
     }
 }
